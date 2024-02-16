@@ -63,11 +63,11 @@ nav li {
   color: #404bbf;
 }
 
-address {
+.address-block {
   font-style: normal;
 }
 
-address .link-address {
+.address-block .link-address {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -77,8 +77,8 @@ address .link-address {
   font-style: normal;
 }
 
-address .link-address:hover,
-address .link-address:focus {
+.address-block .link-address:hover,
+.address-block .link-address:focus {
   text-decoration: underline;
   color: #404bbf;
 }
