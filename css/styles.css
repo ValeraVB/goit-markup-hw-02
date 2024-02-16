@@ -1,18 +1,12 @@
 body {
   font-family: "Roboto", sans-serif;
-  width: 1440px;
-  height: 3300px;
   background: #fff;
   color: #434455;
 }
 
 .top-line {
-  border-bottom: 1px solid #e7e9fc;
-  width: 1440px;
-  height: 72px;
   background: #fff;
   flex-shrink: 0;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -67,7 +61,7 @@ nav li {
   font-style: normal;
 }
 
-.address-block .link-address {
+.link-address {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -77,15 +71,13 @@ nav li {
   font-style: normal;
 }
 
-.address-block .link-address:hover,
-.address-block .link-address:focus {
+.link-address:hover,
+.link-address:focus {
   text-decoration: underline;
   color: #404bbf;
 }
 
 .hero-image {
-  width: 1440px;
-  height: 600px;
   flex-shrink: 0;
   background: #2e2f42;
   text-align: center;
@@ -103,10 +95,7 @@ nav li {
 .hero-image-btn {
   display: inline-flex;
   padding: 16px 32px;
-  align-items: flex-start;
-  border-radius: 4px;
   background: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
   font-size: 16px;
   font-weight: 500;
@@ -122,16 +111,12 @@ nav li {
 }
 
 .benefits-section {
-  width: 1128px;
-  height: 104px;
   flex-shrink: 0;
   text-align: center;
   display: inline-block;
 }
 
 .benefits-section-block {
-  width: 264px;
-  height: 104px;
   display: inline-block;
   text-align: left;
 }
@@ -153,8 +138,6 @@ nav li {
 }
 
 .our-team-section {
-  width: 1440px;
-  height: 732px;
   background: #f4f4fd;
   text-align: center;
 }
@@ -170,12 +153,6 @@ nav li {
 }
 
 .team-card {
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
   display: inline-block;
 }
@@ -199,8 +176,6 @@ nav li {
 }
 
 .our-portfolio-section {
-  width: 1128px;
-  height: 1000px;
   text-align: center;
 }
 
@@ -214,14 +189,7 @@ nav li {
   text-align: center;
 }
 
-.block-row {
-  width: 1128px;
-  height: 420px;
-}
-
 .project-cart {
-  width: 360px;
-  height: 420px;
   background: #fff;
   display: inline-block;
 }
@@ -245,8 +213,6 @@ nav li {
 }
 
 .footer {
-  width: 1440px;
-  height: 312px;
   background: #2e2f42;
 }
 
