@@ -57,10 +57,17 @@ nav li {
   text-align: center;
 }
 
-.section-address {
+.menu-nav .link:hover,
+.menu-nav .link:focus {
+  text-decoration: underline;
+  color: #404bbf;
+}
+
+address {
   font-style: normal;
 }
-.section-address .link-addres {
+
+address .link-address {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -70,14 +77,8 @@ nav li {
   font-style: normal;
 }
 
-.menu-nav .link:hover,
-.menu-nav .link:focus {
-  text-decoration: underline;
-  color: #404bbf;
-}
-
-.section-address .link-addres:hover,
-.section-address .link-addres:focus {
+address .link-address:hover,
+address .link-address:focus {
   text-decoration: underline;
   color: #404bbf;
 }
