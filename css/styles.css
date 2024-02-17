@@ -4,21 +4,15 @@ body {
   color: #434455;
 }
 
-.top-line {
+.page-header {
   background: #fff;
   flex-shrink: 0;
   justify-content: center;
-  align-items: center;
 }
 
 ul,
 li {
   list-style-type: none;
-}
-
-nav ul,
-address {
-  display: inline-block;
 }
 
 nav li {
@@ -40,7 +34,7 @@ nav li {
   color: #2e2f42;
 }
 
-.menu-nav .link {
+.page-header .link {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
@@ -51,8 +45,8 @@ nav li {
   text-align: center;
 }
 
-.menu-nav .link:hover,
-.menu-nav .link:focus {
+.page-header .link:hover,
+.page-header .link:focus {
   text-decoration: underline;
   color: #404bbf;
 }
@@ -93,8 +87,6 @@ nav li {
 }
 
 .hero-image-btn {
-  display: inline-flex;
-  padding: 16px 32px;
   background: #4d5ae5;
   color: #fff;
   font-size: 16px;
@@ -113,11 +105,9 @@ nav li {
 .benefits-section {
   flex-shrink: 0;
   text-align: center;
-  display: inline-block;
 }
 
 .benefits-section-block {
-  display: inline-block;
   text-align: left;
 }
 
@@ -154,7 +144,6 @@ nav li {
 
 .team-card {
   background: #fff;
-  display: inline-block;
 }
 
 .team-card-title {
@@ -189,9 +178,11 @@ nav li {
   text-align: center;
 }
 
+.block-row {
+}
+
 .project-cart {
   background: #fff;
-  display: inline-block;
 }
 
 .card-content-title {
