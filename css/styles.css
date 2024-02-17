@@ -51,11 +51,11 @@ nav li {
   color: #404bbf;
 }
 
-address {
+.contacts-address {
   font-style: normal;
 }
 
-address .link-address {
+.contacts-link {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
@@ -65,8 +65,8 @@ address .link-address {
   font-style: normal;
 }
 
-address .link-address:hover,
-address .link-address:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   text-decoration: underline;
   color: #404bbf;
 }
